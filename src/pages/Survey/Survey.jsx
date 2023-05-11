@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Survey = () => {
   return (
@@ -7,7 +7,6 @@ const Survey = () => {
       <h1>Questionnaire 🧮</h1>
       <Link to="client">Questionnaire Client</Link>
       <Link to="freelance">Questionnaire Freelance</Link>
-      <Outlet />
     </div>
   )
 }
